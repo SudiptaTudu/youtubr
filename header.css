@@ -1,0 +1,226 @@
+.header
+{
+    
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    position:fixed;
+    left:0;
+    right:0;
+    top:0;
+    height:55px;
+    background-color:white;
+    margin-bottom:10px;
+    border-bottom-width:1px;
+    border-bottom-style:solid;
+    border-bottom-color:gray;
+    z-index:100;
+    padding-left:15px;
+
+}
+
+.left-section
+{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    width:150px;
+}
+
+.B916
+{
+   display:flex;
+   align-items:center;
+   justify-content:center;
+   flex-direction:row;
+   height:40px;
+   width:40px;
+   border-radius:25px;
+   border:none;
+   background-color: white;
+   cursor:pointer;
+}
+
+.img6
+{
+ height: 20px;
+ width:20px;
+ margin:10px;
+   border-radius:5px;
+}
+
+.img7
+{
+    height: 30px;
+    width:35px;
+    margin-left:30px;
+}
+
+.middle-section
+{
+  flex:1;
+  margin-left:100px;
+  margin-right:35px;
+  max-width:680px;
+  min-width:90px;
+  display:flex;
+  align-items:center;
+  z-index:100;
+}
+
+.tooltext
+{font-family:roboto, Arial;
+font-size:12px;
+font-weight:500;
+color:white;
+padding:5px;
+background-color: gray;
+border-radius:2px;
+opacity:0;
+transition:opacity 0.15s;
+margin-top:10px;
+position:absolute;
+}
+.BT8:hover .tooltext
+{
+    opacity:1;
+}
+
+
+.BT8
+{
+  border-width:0.1px;
+  border-color: gray;
+  height:39px;
+  border-top-right-radius:20px;
+  border-bottom-right-radius:20px;
+  margin-left:-1px;
+  cursor:pointer;
+
+}
+.img8
+{
+width:25px;
+height:25px;
+padding-left: 15px;
+padding-right: 15px;
+padding-top:5px;
+}
+
+.tooltext1
+{font-family:roboto, Arial;
+font-size:12px;
+font-weight:500;
+color:white;
+padding:5px;
+background-color: gray;
+border-radius:2px;
+opacity:0;
+transition:opacity 0.15s;
+margin-top:77px;
+position:absolute;
+}
+.BT9
+{   
+    border-radius: 17px;
+    border: none;
+    width:35px;
+    height:35px;
+    margin-left:10px;
+    margin-right:100px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    position:relative;
+}
+
+.BT9:hover .tooltext1
+{
+    opacity:1;
+}
+
+.img9
+{
+width:25px;
+height:25px;
+border-radius:15px;
+}
+
+.right-section
+{
+    width:200px;
+    DISPLAY:FLEX;
+    flex-direction:row;
+    align-items:CENTER;
+    PADDING-TOP:NONE;
+    PADDING-BOTTOM:NONE;
+    PADDING-RIGHT:NONE;
+    PADDING-LEFT:NONE;
+    margin-left:90px;
+}
+
+.RSB1,
+.RSB2,
+.RSB3
+{
+    width:35px;
+    height:35px;
+    margin-right:20px;
+    border:none;
+    border-radius:50px;
+    display:flex;
+    padding-top:none;
+    padding-bottom:none;
+    padding-right:none;
+    padding-left:none;
+    flex-direction:row;
+    align-items: center;
+    justify-content:center; 
+    position:relative;
+    cursor:pointer;
+}
+
+.RS1,
+.RS2
+{
+    width:25px;
+    height:25px;
+    margin:0px;
+    border-radius:35px;   
+}
+
+.IRR2
+{
+    position:relative;
+}
+.DRR2
+{
+   position:absolute;
+   top:0;
+   margin:0;
+   right:0;
+   width:13px;
+   height:13px;
+   border-radius:10px;
+   background-color:rgb(200, 0, 0);
+   color:white;
+   font-family:roboto,arial;
+   font-size:12px;
+
+}
+
+.RSB1:hover .tooltext1,
+.RSB2:hover .tooltext1,
+.RSB3:hover .tooltext1
+{
+    opacity:1;
+}
+.RS3{
+    width:35px;
+    height:35px;
+    margin:0px;
+    border-radius:35px;
+    
+}

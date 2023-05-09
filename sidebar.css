@@ -1,0 +1,46 @@
+.sidebar
+{
+    position:fixed;
+    bottom:0;
+    left:0;
+    top:55px;
+    width:65px;
+    background-color:white;
+    border-right-width:1px;
+    border-right-style:solid;
+    border-right-color:gray;
+    box-shadow: 1px 2px 5px rgba(248, 190, 0, 0.05);  
+}
+
+.SBD1{
+background-color:white;
+height:86px;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+}
+.SBD1:hover
+{
+   background-color: rgb(235,235,235);
+   cursor:pointer;
+}
+
+.SBD1 img{
+    height:30px;
+}
+
+.SBD1 div{
+    font-family:roboto, Arial;
+    font-size:10px;
+    font-weight:500;
+}
+
+
+
+
+
+
+
+
+
